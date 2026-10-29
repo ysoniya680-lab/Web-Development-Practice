@@ -205,14 +205,14 @@
 // }
 
 // export default App;
-import Quotes from "./Quotes";
+// import Quotes from "./Quotes";
 
-function App() {
-  return (
-    <div>
-      <Quotes />
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <div>
+//       <Quotes />
+//     </div>
+//   );
+// }
 
-export default App;
+// export default App;

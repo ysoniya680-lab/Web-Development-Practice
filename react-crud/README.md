@@ -1,16 +1,44 @@
-# React + Vite
+# Web Development Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+This repository is for practicing web development concepts covered in class, with a focus on React.js, JavaScript, and hands-on coding.
 
-Currently, two official plugins are available:
+## Purpose
+- Practice concepts taught during class
+- Improve React.js and frontend development skills
+- Keep class exercises and practice projects organized
+- Track learning progress using Git and GitHub
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Vite
+- npm
+- Git and GitHub
 
-## React Compiler
+## Practice Topics
+- React project structure
+- Functional components and JSX
+- Props and state
+- Event handling
+- Conditional rendering
+- Lists and forms
+- React Hooks
+- Small practice projects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Practice Projects
+- Counter App
+- Other class exercises and projects as they are completed
 
-## Expanding the Oxlint configuration
+## Reference and Acknowledgment
+Some initial files in this repository were copied from the learning repository of Saloni Kashyap as a reference. I will use these materials for learning and practice, identify the original source where applicable, and add my own class exercises and modifications as I progress.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Useful Commands
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
