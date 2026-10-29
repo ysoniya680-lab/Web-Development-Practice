@@ -1,4 +1,4 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -10,4 +10,42 @@
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Display</title>
+</head>
+<body>
+
+    <h2>Text Display Page</h2>
+
+    <label>Enter Text:</label>
+    <input type="text" id="textbox" placeholder="Type something here">
+
+    <br><br>
+
+    <label>Enter Description:</label>
+    <textarea id="textarea" placeholder="Write something here"></textarea>
+
+    <h3>Output:</h3>
+    <p id="output"></p>
+
+    <script>
+        let textbox = document.getElementById("textbox");
+        let textarea = document.getElementById("textarea");
+        let output = document.getElementById("output");
+
+        textbox.addEventListener("input", showText);
+        textarea.addEventListener("input", showText);
+
+        function showText() {
+            output.innerText =
+                textbox.value + "\n" + textarea.value;
+            output.style.whiteSpace = "pre-wrap";
+        }
+    </script>
+
+</body>
 </html>
